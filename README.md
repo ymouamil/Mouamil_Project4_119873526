@@ -48,33 +48,4 @@ Uses the FIR Hilbert transformer in the SSB modulator, trims the convolution del
 ### Part (v)
 Shifts the SSB signal back toward baseband and makes a demodulated version for listening.
 
-## Uploading to GitHub in one shot
-
-### Easiest way from the command line
-
-Create an empty repository on GitHub first. Do not add a README there if you already have one here.
-
-Then in the project folder run:
-
-```bash
-git init
-git add .
-git commit -m "Add Project 4 files"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
-git push -u origin main
-```
-
-GitHub's docs say you can add locally hosted code to GitHub this way, and `git push origin main` is the normal push command. citeturn122582search0turn122582search3turn122582search16
-
-### If you want one command after `git init`
-
-If Git is already set up and the remote exists, this also works:
-
-```bash
-git add . && git commit -m "Project 4" && git push -u origin main
-```
-
-### Browser upload limits
-
-GitHub says browser uploads are limited to 25 MiB per file and up to 100 files at once, so command line is the safer one-shot route even for normal projects. citeturn122582search5
+up to 100 files at once, so command line is the safer one-shot route even for normal projects. citeturn122582search5
