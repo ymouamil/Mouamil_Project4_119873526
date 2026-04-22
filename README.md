@@ -47,5 +47,3 @@ Uses the FIR Hilbert transformer in the SSB modulator, trims the convolution del
 
 ### Part (v)
 Shifts the SSB signal back toward baseband and makes a demodulated version for listening.
-
-up to 100 files at once, so command line is the safer one-shot route even for normal projects. citeturn122582search5
